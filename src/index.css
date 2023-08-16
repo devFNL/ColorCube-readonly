@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Poppins:wght@100&family=Raleway:wght@100&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 5px;
+  font-family: "Handjet", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 25px;
+}
+
+.container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cube {
+  margin: 10px auto;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+form {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  width: 70%;
+  min-height: 25px;
+  background-color: white;
+  margin-top: auto;
+  font-size: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  width: 73%;
+  min-height: 25px;
+  margin-top: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
